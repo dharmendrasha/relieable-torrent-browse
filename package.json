@@ -1,6 +1,6 @@
 {
-  "name": "torrent-browse",
-  "version": "1.0.2",
+  "name": "stable-torrent-browse",
+  "version": "1.0.3",
   "description": "Torrent search library for both nodejs and javascript",
   "keywords": [
     "torrent",
@@ -31,14 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KiraLT/torrent-browse.git"
+    "url": "git+https://github.com/dharmendrasha/relieable-torrent-browse.git"
   },
   "author": "KiraLT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KiraLT/torrent-browse/issues"
+    "url": "https://github.com/dharmendrasha/relieable-torrent-browse"
   },
-  "homepage": "https://github.com/KiraLT/torrent-browse#readme",
+  "homepage": "https://github.com/dharmendrasha/relieable-torrent-browse#readme",
   "files": [
     "dist/**/*"
   ],

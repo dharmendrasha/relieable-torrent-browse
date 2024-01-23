@@ -28,7 +28,7 @@ async function fetchBrowser(url: string): Promise<string> {
                 if (nextUrl) {
                     return retry(nextUrl, proxies)
                 }
-    
+
                 return Promise.reject(err)
             })
     }
@@ -39,7 +39,7 @@ async function fetchBrowser(url: string): Promise<string> {
 async function fetchNode(url: string): Promise<string> {
     return fetch(url, {
         headers: {
-            'User-Agent': `torrent-browse (+https://github.com/KiraLT/torrent-browse)`
+            'User-Agent': `stable-torrent-browse (+https://github.com/dharmendrasha/relieable-torrent-browse)`
         }
     }).then(v => v.text())
 }
